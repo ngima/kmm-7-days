@@ -6,7 +6,7 @@ import np.com.ngimasherpa.kmm7days.Greeting
 import android.widget.TextView
 
 fun greet(): String {
-    return Greeting().greeting()
+    return "${Greeting().greeting()} && Random UUID"
 }
 
 class MainActivity : AppCompatActivity() {

@@ -3,9 +3,10 @@ import shared
 
 struct ContentView: View {
 	let greet = Greeting().greeting()
+	let uuid = UUID.randomUUID()
 
 	var body: some View {
-		Text(greet)
+		Text("\(greet) && Random UUID \(uuid)")
 	}
 }
 
