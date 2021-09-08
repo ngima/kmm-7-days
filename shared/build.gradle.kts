@@ -75,5 +75,7 @@ android {
 sqldelight {
     database("AppDatabase") {
         packageName = "np.com.ngimasherpa.kmm7days.db"
+        sourceFolders = listOf("sqldelight")
+        schemaOutputDirectory = file("build/dbs")
     }
 }
